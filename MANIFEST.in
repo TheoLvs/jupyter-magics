@@ -1,0 +1,2 @@
+include magics/static/alarm.wav
+recursive-include data *

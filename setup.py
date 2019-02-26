@@ -15,8 +15,8 @@ setuptools.setup(
     long_description_content_type="text/markdown",
     url="https://github.com/theolvs/jupyter-magics",
     packages=setuptools.find_packages(),
-    package_data={'magics.static': ['*.wav']},
-    include_package_data=False,
+    package_data={'': ['*.wav']},
+    include_package_data=True,
     install_requires=[
     ],
     classifiers=(
